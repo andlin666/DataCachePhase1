@@ -1,4 +1,4 @@
-# seed .ignore file
+# seed .gitignore file
 
 # Compiled python modules.
 *.pyc
@@ -8,3 +8,8 @@
 
 # Python egg metadata, regenerated from source files by setuptools.
 /*.egg-info
+
+# Visual Studio
+*.sln
+/*.pyproj
+/*.vs
