@@ -63,6 +63,5 @@ class DataConnection(object):
         return DataConnection(accountinfo.get(DataConnection.accountName), 
                               accountinfo.get(DataConnection.accountKey), 
                               accountinfo.get(DataConnection.accountKind))
-    
 
 # end class DataConnection
